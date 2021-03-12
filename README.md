@@ -21,16 +21,16 @@ Keyboard:
 - press `>` to get next image and mark current image as used (move to separate directory),
 - press `esc` to stop the script.
 
-requirements (pip install ...): 
+Requirements: 
 - `python3`,
 - `opencv`,
 - `numpy`.
 
-running the script in cmd (path to directory containing raw images is required):
+Running the script in cmd (path to directory containing raw images is required):
 
 `python <path_to_main.py> <path_to_dir_with_imgs>`
 
-example (windows):
+Example (windows):
 
 `python .\main.py C:\Users\Filip\Downloads\dataset`
 
