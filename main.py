@@ -186,7 +186,7 @@ def main():
             if index + 1 < file_count:
                 index += 1
             else:
-                print("All images processed has been processed.")
+                print("All images has been processed.")
                 break
 
             # reset flags and drawing to handle new image
