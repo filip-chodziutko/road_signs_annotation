@@ -1,5 +1,6 @@
 # Road signs annotation
-This python script enables convenient segmentation and annotation of polish road signs photos.
+## Description
+This python script has been written to enable convenient segmentation and annotation of polish road signs photos.
 
 User can select part of the image with the road sign and label it. Selected area is saved as separate image in a
  directory corresponding to one of 5 classes:
@@ -13,20 +14,22 @@ User can select part of the image with the road sign and label it. Selected area
  processing the same image multiple times.
 ## Manual
 Mouse:
-- press `RMB` and move the mouse to draw square on the image,
-- press `LMB` and move the mouse to move drawn square.
+- press `LMB` and move the mouse to draw square on the image,
+- press `RMB` and move the mouse to move drawn square.
 
 Keyboard:
-- press `A`, `B`, `C`, `D` or `X` to save selected area to corresponding directory,
-- press `>` to get next image and mark current image as used (move to separate directory),
-- press `esc` to stop the script.
+- `A`, `B`, `C`, `D` or `X` - save selected area to the corresponding directory,
+- `>` - get next image and mark current image as used (move it to the separate directory),
+- `Space` - zoom in to the selected area (only "one level" of zoom works),
+- `Backspace` - zoom out to the original image,
+- `Esc` - stop the script.
 
 Requirements: 
 - `python3`,
 - `opencv`,
 - `numpy`.
 
-Running the script in cmd (path to directory containing raw images is required):
+Running the script in cmd (path to the directory containing raw images is required):
 
 `python <path_to_main.py> <path_to_dir_with_imgs>`
 
